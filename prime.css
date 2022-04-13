@@ -1,0 +1,68 @@
+body { background-color: #003366;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url(img/primevertical.png);
+
+}
+a:link { text-underline: none }
+h2 { background-color:#ffffcc;
+    color:#003366;
+}
+h3{ background-color:#ffffcc;
+    color:#006600;
+}
+dd { font-style:italic;
+    font-size:.90em;
+    line-height:200%;
+
+}
+#logo {
+    float: left;
+    margin-right:  50px;
+}
+.contact { font-family: "Times New Roman", serif;
+    font-size: .90em;
+    font-weight:bold;
+}
+
+#wrapper{
+    margin: 0 auto;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #003300;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+
+}
+
+#nav {
+
+    font-size: 0.7em;
+    float: left;
+    width: 100px;
+    margin-right:  50px;
+    padding-bottom: 100%;
+}
+
+#section{
+
+
+    float: right;
+}
+
+#footer { font-size: 0.60em;
+    font-style: italic;
+}
+
+.property {
+    padding: 5px 30px 0px 0px ;
+}
+
+.home { background-image: url(img/schaumburg.jpg);
+    background-position: -100px -275px;
+    background-repeat: no-repeat;
+    color: #ffffcc;
+    padding: 30px 50px 15px 5px;
+    width: 200px;
+    margin-top: 10px ;
+
+}
