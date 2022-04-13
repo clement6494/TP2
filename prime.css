@@ -25,9 +25,10 @@ dd { font-style:italic;
 }
 
 #wrapper{
-    margin: 0 auto;
     padding-left: 10px;
-    box-sizing: border-box;
+    width: 680px;
+    margin: auto;
+    minimum-width: 680px;
     color: #003300;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffcc;
@@ -51,10 +52,11 @@ dd { font-style:italic;
 
 #footer { font-size: 0.60em;
     font-style: italic;
+    padding-bottom: 10px;
 }
 
 .property {
-    padding: 5px 30px 0px 0px ;
+    padding: 5px 30px 0 0 ;
 }
 
 .home { background-image: url(img/schaumburg.jpg);
@@ -65,4 +67,20 @@ dd { font-style:italic;
     width: 200px;
     margin-top: 10px ;
 
+}
+
+.myRow{
+padding-bottom: 20px;
+}
+
+.labelCol{
+    float : left;
+    width: 100px ;
+    padding-right: 100px;
+    text-align: right;
+
+}
+
+.mySubmit{
+    margin: 10px ;
 }
