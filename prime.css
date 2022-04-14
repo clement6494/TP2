@@ -15,7 +15,7 @@ dd { font-style:italic;
     line-height:200%;
 
 }
-#logo {
+.logo {
     padding: 10px 50px 15px 5px;
     width: 300px;
 
@@ -29,7 +29,7 @@ dd { font-style:italic;
     padding-left: 10px;
     width: 680px;
     margin: auto;
-    minimum-width: 680px;
+
     color: rgba(217, 215, 215, 0.66);
     font-family: Arial, Helvetica, sans-serif;
     background-color: #231f10;
@@ -91,9 +91,9 @@ padding-bottom: 20px;
     background-color: rgb(17, 16, 8);
     font-size: 19px;
     border: 1px solid rgb(17, 16, 8);
-    padding: 3px
+    padding: 3px;
     cursor: pointer;
-    font: bold;
+    font-weight: bold;
     text-align: center;
     width: 120px;
 }
@@ -109,7 +109,7 @@ padding-bottom: 20px;
     border: 1px solid #736635;
     padding: 3px;
     cursor: pointer;
-    font: bold;
+    font-weight: bold;
     text-align: center;
     width: 120px;
 }
