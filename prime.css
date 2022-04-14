@@ -1,14 +1,14 @@
 body { background-color: #003366;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    background-image: linear-gradient(rgb(35, 31, 16), rgb(159, 138, 61)),
     url(img/primevertical.png);
 
 }
 a:link { text-underline: none }
-h2 { background-color:#ffffcc;
-    color:#003366;
+h2 {
+    color:#736635;
 }
-h3{ background-color:#ffffcc;
-    color:#006600;
+h3{
+    color:#736635;
 }
 dd { font-style:italic;
     font-size:.90em;
@@ -16,8 +16,9 @@ dd { font-style:italic;
 
 }
 #logo {
-    float: left;
-    margin-right:  50px;
+    padding: 10px 50px 15px 5px;
+    width: 300px;
+
 }
 .contact { font-family: "Times New Roman", serif;
     font-size: .90em;
@@ -29,9 +30,9 @@ dd { font-style:italic;
     width: 680px;
     margin: auto;
     minimum-width: 680px;
-    color: #003300;
+    color: rgba(217, 215, 215, 0.66);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffcc;
+    background-color: #231f10;
 
 }
 
@@ -59,7 +60,7 @@ dd { font-style:italic;
     padding: 5px 30px 0 0 ;
 }
 
-.home { background-image: url(img/schaumburg.jpg);
+.home { background-image: url(img/villa2.jpg);
     background-position: -100px -275px;
     background-repeat: no-repeat;
     color: #ffffcc;
@@ -83,4 +84,38 @@ padding-bottom: 20px;
 
 .mySubmit{
     margin: 10px ;
+}
+
+.button {
+    color: rgba(217, 215, 215, 0.66) ;
+    background-color: rgb(17, 16, 8);
+    font-size: 19px;
+    border: 1px solid rgb(17, 16, 8);
+    padding: 3px
+    cursor: pointer;
+    font: bold;
+    text-align: center;
+    width: 120px;
+}
+.button:hover {
+    color: #736635;
+    background-color: rgb(23, 21, 10);
+}
+
+.page {
+    color: rgb(17, 16, 8) ;
+    background-color: #736635;
+    font-size: 19px;
+    border: 1px solid #736635;
+    padding: 3px;
+    cursor: pointer;
+    font: bold;
+    text-align: center;
+    width: 120px;
+}
+
+.page:hover {
+    color: rgba(217, 215, 215, 0.66);
+    background-color: rgb(68, 62, 36);
+    border: 1px solid #2d291a;
 }
